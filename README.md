@@ -12,7 +12,7 @@ A special thanks to Data with Danny for creating these insightful and engaging S
 
 Please find the solution links for the case studies below. Simply click on the links to access each solution.
 
-Case Study #1: Danny's Diner  
+[Case Study #1: Danny's Diner]()
 Case Study #2: Pizza Runner  
 Case Study #3: Foodie-Fi  
 Case Study #4: Data Bank  
