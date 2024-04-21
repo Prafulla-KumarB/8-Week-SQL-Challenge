@@ -53,5 +53,5 @@ ORDER BY YEAR(start_date) * 100 + MONTH(start_date)
 
 ![ERD](2.PNG)
 
-
+3. 
 
