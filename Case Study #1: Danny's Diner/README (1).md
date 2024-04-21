@@ -41,6 +41,17 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 2. How many days has each customer visited the restaurant?
 
+SELECT YEAR(start_date) * 100 + MONTH(start_date) Month_year,
+		DATENAME(MONTH, start_date) Month,
+		COUNT(DISTINCT customer_id) No_of_trial_plans
+FROM foodie_fi.subscriptions s
+WHERE s.plan_id = 0
+GROUP BY YEAR(start_date) * 100 + MONTH(start_date),
+		DATENAME(MONTH, start_date)
+ORDER BY YEAR(start_date) * 100 + MONTH(start_date)
+
+
 ![ERD](2.PNG)
+
 
 
