@@ -41,7 +41,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 2. How many days has each customer visited the restaurant?
 
-![ERD](https://user-images.githubusercontent.com/81607668/127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8.png)
+![ERD](2.PNG)
 
 3. **Schema (PostgreSQL v13)**
 
