@@ -39,4 +39,20 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 ---
 
-[View on DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138)
+2. How many days has each customer visited the restaurant?
+
+Month_year	Month	No_of_trial_plans
+202001	January	88
+202002	February	68
+202003	March	94
+202004	April	81
+202005	May	88
+202006	June	79
+202007	July	89
+202008	August	88
+202009	September	87
+202010	October	79
+202011	November	75
+202012	December	84
+
+4. 
