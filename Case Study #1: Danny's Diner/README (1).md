@@ -9,6 +9,7 @@
 1. Business Task  
 2. Entity Relationship Diagram  
 3. Question and Solution
+
 ## Business Task
 
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite.
@@ -20,16 +21,15 @@ Danny wants to use the data to answer a few simple questions about his customers
 ## Question and Solution
 
 1. What is the total amount each customer spent at the restaurant?
-
-**Query #1**
-
+``` sql
     SELECT
-      	product_id,
+   	product_id,
         product_name,
         price
     FROM dannys_diner.menu
     ORDER BY price DESC
     LIMIT 5;
+```
 
 | product_id | product_name | price |
 | ---------- | ------------ | ----- |
@@ -40,7 +40,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 ---
 
 2. How many days has each customer visited the restaurant?
-```
+``` sql
 SELECT YEAR(start_date) * 100 + MONTH(start_date) Month_year,  
 		DATENAME(MONTH, start_date) Month,  
 		COUNT(DISTINCT customer_id) No_of_trial_plans  
