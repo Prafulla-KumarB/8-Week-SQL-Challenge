@@ -212,8 +212,10 @@ ORDER BY sales.customer_id;
 | A	      |2                |25           |
 | B	      |3                |40           |
 
-### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier — how many points would each customer have?
 ``` sql
+
+### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier — how many points would each customer have?
+
 WITH points_cte AS (
   SELECT 
     menu.product_id, 
