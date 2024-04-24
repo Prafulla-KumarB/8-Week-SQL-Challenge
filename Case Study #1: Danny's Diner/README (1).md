@@ -206,16 +206,16 @@ INNER JOIN dannys_diner.menu
   ON sales.product_id = menu.product_id
 GROUP BY sales.customer_id
 ORDER BY sales.customer_id;
+```
 
 | customer_id | total_items	| total_sales |
 | ----------  | --------------- | ----------- |
 | A	      |2                |25           |
 | B	      |3                |40           |
 
-``` sql
 
 ### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier — how many points would each customer have?
-
+``` sql
 WITH points_cte AS (
   SELECT 
     menu.product_id, 
