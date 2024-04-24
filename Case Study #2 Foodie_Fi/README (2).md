@@ -68,7 +68,7 @@ GROUP BY YEAR(start_date) * 100 + MONTH(start_date),
 ORDER BY YEAR(start_date) * 100 + MONTH(start_date);  
 ```
 
-![ERD](2.PNG)
+![2](https://github.com/Prafulla-KumarB/8-Week-SQL-Challenge/assets/92779688/8dfe7a90-757a-4bd1-b438-2a61815625da)
 
 ### 3. What plan start_date values occur after the year 2020 for our dataset? Show the breakdown by count of events for each plan_name
 ``` sql
